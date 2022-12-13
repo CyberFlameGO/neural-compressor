@@ -34,6 +34,7 @@ quantization:                                        # optional. tuning constrai
         Normalize:
           mean: [0.485, 0.456, 0.406]
           std: [0.229, 0.224, 0.225]
+  optimization_level: 0
 
 evaluation:                                          # optional. required if user doesn't provide eval_func in neural_compressor.Quantization.
   accuracy:                                          # optional. required if user doesn't provide eval_func in neural_compressor.Quantization.
