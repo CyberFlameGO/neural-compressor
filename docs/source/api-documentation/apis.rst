@@ -6,8 +6,7 @@ The following API information is available:
 .. toctree::
    :maxdepth: 1
 
-   component
-   common
+   new_api
    strategy
    adaptor
    pythonic
